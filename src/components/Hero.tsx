@@ -75,20 +75,25 @@ export default function Hero() {
         </Reveal>
 
         <Reveal delay={0.15} className="relative flex flex-1 justify-center">
-          <HeroBlobs />
-          <div className="relative my-12 h-[340px] w-[340px] overflow-hidden rounded-full">
-            <Image
-              src="/profile-cutout.png"
-              alt="Intan Kamilia"
-              fill
-              sizes="340px"
-              className="object-cover object-[center_20%]"
-              priority
-            />
-          </div>
-          <div className="absolute right-[-10px] bottom-10 flex items-center gap-2.5 rounded-2xl bg-white px-5 py-3.5 shadow-[0_12px_30px_rgba(61,42,30,0.15)]">
-            <div className="h-2 w-2 rounded-full bg-sage" />
-            <div className="text-[13px] text-brown-soft">Open to new roles</div>
+          <div className="relative h-[420px] w-[420px]">
+            <HeroBlobs />
+            <div
+              className="absolute overflow-hidden rounded-full"
+              style={{ width: 280, height: 280, top: 68, left: 90 }}
+            >
+              <Image
+                src="/profile-cutout.png"
+                alt="Intan Kamilia"
+                fill
+                sizes="280px"
+                className="object-cover object-[center_20%]"
+                priority
+              />
+            </div>
+            <div className="absolute right-2 bottom-14 flex items-center gap-2.5 rounded-2xl bg-white px-5 py-3.5 shadow-[0_12px_30px_rgba(61,42,30,0.15)]">
+              <div className="h-2 w-2 rounded-full bg-sage" />
+              <div className="text-[13px] text-brown-soft">Open to new roles</div>
+            </div>
           </div>
         </Reveal>
       </div>
