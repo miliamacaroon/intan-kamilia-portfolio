@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Reveal from "./Reveal";
+import HeroBlobs from "./HeroBlobs";
 
 export default function Hero() {
   return (
@@ -74,24 +75,8 @@ export default function Hero() {
         </Reveal>
 
         <Reveal delay={0.15} className="relative flex flex-1 justify-center">
-          <svg width="420" height="420" viewBox="0 0 420 420" className="pointer-events-none absolute -top-5 -left-5">
-            <path
-              d="M210,30 C310,30 380,110 380,210 C380,320 300,390 195,385 C90,380 30,300 35,200 C40,105 115,30 210,30 Z"
-              fill="#E0A429"
-              opacity="0.3"
-            />
-          </svg>
-          <svg width="420" height="420" viewBox="0 0 420 420" className="pointer-events-none absolute top-5 left-[30px]">
-            <path
-              d="M215,55 C300,55 355,125 355,210 C355,300 285,355 200,350 C110,345 60,285 65,205 C70,120 135,55 215,55 Z"
-              fill="#F4DFB2"
-              opacity="0.9"
-            />
-          </svg>
-          <div
-            className="relative my-10 w-[260px] sm:w-[300px]"
-            style={{ filter: "drop-shadow(0 22px 34px rgba(61,42,30,0.28))" }}
-          >
+          <HeroBlobs />
+          <div className="relative my-10 w-[260px] sm:w-[300px]">
             <Image
               src="/profile-cutout.png"
               alt="Intan Kamilia"
@@ -99,8 +84,8 @@ export default function Hero() {
               height={690}
               className="h-auto w-full"
               style={{
-                WebkitMaskImage: "linear-gradient(to bottom, black 82%, transparent 100%)",
-                maskImage: "linear-gradient(to bottom, black 82%, transparent 100%)",
+                WebkitMaskImage: "linear-gradient(to bottom, black 78%, transparent 96%)",
+                maskImage: "linear-gradient(to bottom, black 78%, transparent 96%)",
               }}
               priority
             />
