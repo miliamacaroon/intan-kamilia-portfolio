@@ -76,17 +76,13 @@ export default function Hero() {
 
         <Reveal delay={0.15} className="relative flex flex-1 justify-center">
           <HeroBlobs />
-          <div className="relative my-10 w-[260px] sm:w-[300px]">
+          <div className="relative my-20 h-[260px] w-[260px] overflow-hidden rounded-full">
             <Image
               src="/profile-cutout.png"
               alt="Intan Kamilia"
-              width={520}
-              height={690}
-              className="h-auto w-full"
-              style={{
-                WebkitMaskImage: "linear-gradient(to bottom, black 78%, transparent 96%)",
-                maskImage: "linear-gradient(to bottom, black 78%, transparent 96%)",
-              }}
+              fill
+              sizes="260px"
+              className="object-cover object-[center_20%]"
               priority
             />
           </div>
