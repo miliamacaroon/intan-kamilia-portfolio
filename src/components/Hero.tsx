@@ -79,13 +79,13 @@ export default function Hero() {
             <HeroBlobs />
             <div
               className="absolute overflow-hidden rounded-full"
-              style={{ width: 280, height: 280, top: 68, left: 90 }}
+              style={{ width: 380, height: 380, top: 18, left: 40 }}
             >
               <Image
                 src="/profile-cutout.png"
                 alt="Intan Kamilia"
                 fill
-                sizes="280px"
+                sizes="380px"
                 className="object-cover object-[center_20%]"
                 priority
               />
