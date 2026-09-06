@@ -76,12 +76,12 @@ export default function Hero() {
 
         <Reveal delay={0.15} className="relative flex flex-1 justify-center">
           <HeroBlobs />
-          <div className="relative my-20 h-[260px] w-[260px] overflow-hidden rounded-full">
+          <div className="relative my-12 h-[340px] w-[340px] overflow-hidden rounded-full">
             <Image
               src="/profile-cutout.png"
               alt="Intan Kamilia"
               fill
-              sizes="260px"
+              sizes="340px"
               className="object-cover object-[center_20%]"
               priority
             />
