@@ -98,6 +98,10 @@ export default function Hero() {
               width={520}
               height={690}
               className="h-auto w-full"
+              style={{
+                WebkitMaskImage: "linear-gradient(to bottom, black 82%, transparent 100%)",
+                maskImage: "linear-gradient(to bottom, black 82%, transparent 100%)",
+              }}
               priority
             />
           </div>
