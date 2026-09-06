@@ -17,7 +17,7 @@ const subProjects = [
   },
   {
     title: "JDN Agentic AI Platform",
-    body: "Contributing to the technical architecture of a 6-agent LangGraph supervisor system with a FastAPI services layer, currently at the requirements-gathering stage.",
+    body: "Currently building a 6-agent LangGraph supervisor system with a FastAPI services layer, at the requirements-gathering stage.",
   },
 ];
 
