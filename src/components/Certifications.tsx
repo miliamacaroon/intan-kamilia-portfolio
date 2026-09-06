@@ -25,7 +25,10 @@ const items = [
 
 export default function Certifications() {
   return (
-    <section id="certs" className="mx-4 rounded-[48px] bg-sand px-6 py-16 sm:mx-8 sm:px-16 sm:py-24">
+    <section
+      id="certs"
+      className="mx-4 rounded-tl-[100px] rounded-tr-[8px] rounded-br-[100px] rounded-bl-[8px] bg-sand px-6 py-16 sm:mx-8 sm:px-16 sm:py-24"
+    >
       <Reveal className="mx-auto max-w-6xl">
         <div className="text-center text-[13px] font-semibold tracking-[3px] text-terracotta uppercase">
           Recognition

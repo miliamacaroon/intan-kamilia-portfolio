@@ -1,9 +1,13 @@
 import Reveal from "./Reveal";
 import TourgetherDiagram from "./diagrams/TourgetherDiagram";
+import NftResultsChart from "./diagrams/NftResultsChart";
 
 export default function Projects() {
   return (
-    <section id="projects" className="mx-4 rounded-[48px] bg-sand px-6 py-16 sm:mx-8 sm:px-16 sm:py-24">
+    <section
+      id="projects"
+      className="border-y border-brown/10 bg-sand px-6 py-16 sm:px-20 sm:py-24"
+    >
       <Reveal className="mx-auto max-w-6xl">
         <div className="text-center text-[13px] font-semibold tracking-[3px] text-terracotta uppercase">
           Selected Work
@@ -51,6 +55,9 @@ export default function Projects() {
               Classified genuine vs. fraudulent NFT projects from Twitter sentiment using XGBoost,
               Random Forest and SVM, reaching 90.83% accuracy on cross-validated splits.
             </p>
+
+            <NftResultsChart />
+
             <div className="flex flex-wrap gap-2">
               <span className="rounded-full bg-sage-soft px-3 py-1.5 text-xs font-semibold text-sage">XGBoost</span>
               <span className="rounded-full bg-sage-soft px-3 py-1.5 text-xs font-semibold text-sage">Power BI</span>

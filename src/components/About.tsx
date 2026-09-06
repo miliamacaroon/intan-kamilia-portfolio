@@ -10,7 +10,10 @@ const tags = [
 
 export default function About() {
   return (
-    <section id="about" className="relative mx-4 overflow-hidden rounded-[48px] bg-sand px-6 py-16 sm:mx-8 sm:px-16 sm:py-24">
+    <section
+      id="about"
+      className="relative mx-4 overflow-hidden rounded-tl-[8px] rounded-tr-[100px] rounded-br-[8px] rounded-bl-[100px] bg-sand px-6 py-16 sm:mx-8 sm:px-16 sm:py-24"
+    >
       <svg
         width="200"
         height="200"

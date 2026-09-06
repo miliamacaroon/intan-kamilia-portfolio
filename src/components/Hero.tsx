@@ -88,13 +88,17 @@ export default function Hero() {
               opacity="0.9"
             />
           </svg>
-          <div className="relative my-20 flex h-[260px] w-[260px] items-center justify-center overflow-hidden rounded-full border-4 border-white bg-white shadow-[0_24px_60px_rgba(61,42,30,0.18)]">
+          <div
+            className="relative my-10 w-[260px] sm:w-[300px]"
+            style={{ filter: "drop-shadow(0 22px 34px rgba(61,42,30,0.28))" }}
+          >
             <Image
-              src="/profile.jpg"
+              src="/profile-cutout.png"
               alt="Intan Kamilia"
-              fill
-              sizes="260px"
-              className="object-cover object-[center_18%]"
+              width={520}
+              height={690}
+              className="h-auto w-full"
+              priority
             />
           </div>
           <div className="absolute right-[-10px] bottom-10 flex items-center gap-2.5 rounded-2xl bg-white px-5 py-3.5 shadow-[0_12px_30px_rgba(61,42,30,0.15)]">
