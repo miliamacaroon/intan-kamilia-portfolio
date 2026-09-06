@@ -89,7 +89,13 @@ export default function Hero() {
             />
           </svg>
           <div className="relative my-20 flex h-[260px] w-[260px] items-center justify-center overflow-hidden rounded-full border-4 border-white bg-white shadow-[0_24px_60px_rgba(61,42,30,0.18)]">
-            <Image src="/profile.jpg" alt="Intan Kamilia" fill sizes="260px" className="object-cover" />
+            <Image
+              src="/profile.jpg"
+              alt="Intan Kamilia"
+              fill
+              sizes="260px"
+              className="object-cover object-[center_18%]"
+            />
           </div>
           <div className="absolute right-[-10px] bottom-10 flex items-center gap-2.5 rounded-2xl bg-white px-5 py-3.5 shadow-[0_12px_30px_rgba(61,42,30,0.15)]">
             <div className="h-2 w-2 rounded-full bg-sage" />

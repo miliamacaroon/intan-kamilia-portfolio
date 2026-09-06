@@ -2,7 +2,7 @@ import Reveal from "./Reveal";
 
 export default function Contact() {
   return (
-    <section id="contact" className="px-6 pb-16 text-center sm:px-20">
+    <section id="contact" className="px-6 pt-16 pb-16 text-center sm:px-20 sm:pt-24">
       <Reveal className="mx-auto max-w-2xl">
         <div className="text-[13px] font-semibold tracking-[3px] text-terracotta uppercase">Let&apos;s Connect</div>
         <h2 className="font-display mt-3.5 text-[30px] leading-[1.2] sm:text-[44px]">
