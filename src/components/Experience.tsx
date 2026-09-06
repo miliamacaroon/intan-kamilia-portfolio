@@ -16,8 +16,8 @@ const subProjects = [
     body: "Maintain production Apache NiFi pipelines, reducing pipeline duration by trimming unnecessary transformation nodes.",
   },
   {
-    title: "JDN Agentic AI POC",
-    body: "Contributing to the technical architecture of a company-proposed 6-agent LangGraph supervisor system with a FastAPI services layer.",
+    title: "JDN Agentic AI Platform",
+    body: "Contributing to the technical architecture of a 6-agent LangGraph supervisor system with a FastAPI services layer, currently at the requirements-gathering stage.",
   },
 ];
 
